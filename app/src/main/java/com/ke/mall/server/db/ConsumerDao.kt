@@ -9,6 +9,6 @@ interface ConsumerDao {
     @Insert
     fun insert(consumer: Consumer): Long
 
-    @Query("select * from consumers where account = :account")
-    fun findByAccount(account: String): Consumer?
+    @Query("select * from consumers where phone = :phone")
+    fun findByPhone(phone: String): Consumer?
 }

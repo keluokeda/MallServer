@@ -1,4 +1,4 @@
 // LoginResponse.aidl
-package com.ke.mall.shared.response;
+package com.ke.mall.model.shared.response;
 
 parcelable LoginResponse;

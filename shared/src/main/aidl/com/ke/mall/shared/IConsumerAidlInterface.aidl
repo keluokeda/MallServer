@@ -8,5 +8,5 @@ import com.ke.mall.shared.response.LoginResponse;
 interface IConsumerAidlInterface {
 
 
-     BaseResponse register(String account,String password);
+     BaseResponse register(String phone,String code,String password);
 }

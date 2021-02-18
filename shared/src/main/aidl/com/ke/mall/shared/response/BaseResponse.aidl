@@ -1,5 +1,5 @@
 // BaseResponse.aidl
-package com.ke.mall.shared.response;
+package com.ke.mall.model.shared.response;
 
 // Declare any non-default types here with import statements
 
